@@ -10,7 +10,7 @@
 /* Write CSS code below */
 .main-content{
     display: grid;
-    grid-template-columns: 300px 700px;
+    grid-template-columns: 300px 1000px;
     min-width: 90%;
     min-height: 1000px;
     background: violet;
@@ -55,8 +55,6 @@
 }
 .skill-title{
     font-size: 0.75rem;
-    display: flex;
-    justify-content: center;
     text-transform: uppercase;
     padding: 1rem 0.5rem;
 }
@@ -74,8 +72,9 @@
 }
 .right-section{
     display: grid;
-    grid-template-columns:1000px;
+    grid-template-columns:800px;
     width: 90%;
+    background-color: #bbb;
 }
 .right-main-content{
     display: block;
@@ -87,6 +86,7 @@
     font-weight: 700;
     padding: 0.5rem;
     letter-spacing: 1px;
+    color: blue;
 }
 .right-subtitle{
     text-transform: uppercase;
