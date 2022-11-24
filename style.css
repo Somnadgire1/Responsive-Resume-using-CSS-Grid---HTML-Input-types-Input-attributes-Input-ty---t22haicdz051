@@ -32,20 +32,20 @@
 .name{
     font-size: 1.2rem;
     font-weight: 700;
-    align-items: center;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.02px;
     padding: 0.8rem;
 }
 .designation{
     font-size: 1rem;
-    align-items: center;
+    text-align: center;
     text-transform: uppercase;
     padding-bottom: 0.5rem ;
 }
 .desription{
     font-size: 0.75rem;
-    align-items: center;
+    text-align: center;
     padding: 1rem;
 }
 .social-media ul{
@@ -55,20 +55,21 @@
 }
 .skill-title{
     font-size: 0.75rem;
+    text-align: center;
     text-transform: uppercase;
     padding: 1rem 0.5rem;
 }
 .skill-name{
     font-size: 0.65rem;
     font-weight: 0.65rem;
-    justify-items: left;
+    text-align: left;
     padding-bottom: 0.5rem;
 }
 .progress-bar{
-    border: 1px solid white;
+    border: 1px white solid;
     height: 4px;
+    background: #bbb;
     width: 95%;
-   
 }
 .right-section{
     display: grid;
@@ -91,14 +92,16 @@
 .right-subtitle{
     text-transform: uppercase;
     font-size: 0.8rem;
-}
-.right-title p{
-    font-size: 0.7rem;
+    color: blueviolet;
 }
 .right-main-content span{
-    display: flex;
-    justify-content: flex-end;
-    color: royalblue;
+    color: rgb(40, 58, 114);
     font-style: italic;
-
+    font-size: 0.75rem;
+}
+.personel-details ul{
+    font-size: 0.75rem;
+}
+.right-main-content p{
+    font-size: 0.75rem;
 }
